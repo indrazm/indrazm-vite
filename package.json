@@ -1,0 +1,15 @@
+{
+  "name": "indrazm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite && pnpx tailwindcss -i src/global.css -o dist/main.css --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
